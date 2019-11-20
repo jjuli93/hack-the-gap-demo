@@ -105,7 +105,7 @@ body {
 @media only screen and (max-width: 1000px) {
   .libro {
     padding: 25px;
-    width: 330px;
+    width: 370px;
     flex-direction: column;
     align-items: center;
   }
