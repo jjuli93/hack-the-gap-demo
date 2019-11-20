@@ -1,0 +1,117 @@
+* {
+  font-family: 'alata';
+  margin: 0;
+}
+
+body {
+  background: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.libro {
+  width: 800px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  flex-wrap: wrap;
+  box-shadow: 7px 6px 5px -4px rgba(0,0,0,0.4);
+}
+
+.portada {
+  height: 300px;
+  margin-right: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contenedor-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 4px solid #BED23C;
+  margin-bottom: 36px;
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.genero {
+  font-size: 24px;
+  color: #828282;
+}
+
+.contenedor-autor {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.autor {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.nombre-autor {
+  color: #828282;
+}
+
+.contenedor-editorial {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.editorial {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.nombre-editorial {
+  color: #828282;
+}
+
+.contenedor-publicacion {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.publicacion {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.nombre-publicacion {
+  color: #828282;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .libro {
+    padding: 25px;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portada {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
